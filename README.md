@@ -1,4 +1,16 @@
 # Windows Terminal Profiles
 My personal settings for the new Windows Terminal
 
-This requires Powershell Core 7, and Windows Subsystem for Linux with Ubuntu 18.04 LTS installed, otherwise the terminal will crash.
+**NOTE:** Windows terminal will crash if the default profile guid does not match a profile, or a profile exists for a terminal/console which is not installed on the local machine.
+
+## Terminals
+- Powershell Core 7 preview
+- Windows Powershell
+- Windows Command Prompt
+- Azure Cloud Shell
+- Windows Subsystem for Linux (Ubuntu 18.04 LTS)
+
+## Installation
+Backup your old profiles.json and clone this repository into `C:\Users\USERNAME\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\RoamingState` or wherever your original file was located. Make any necessary adjustments prior to launching Windows Terminal again.
+
+To run a different OS in WSL run the command `wsl -l` in powershell and change the "commandline" property of the fifth profile to reflect one of the results.
