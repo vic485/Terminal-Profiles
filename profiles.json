@@ -240,7 +240,7 @@
             "name" : "PowerShell Core",
             "padding" : "0, 0, 0, 0",
             "snapOnInput" : true,
-            "startingDirectory" : "%USERPROFILE%",
+            "startingDirectory" : "D:\\Dev",
             "useAcrylic" : false
         },
         {
@@ -259,7 +259,7 @@
             "name" : "Windows PowerShell",
             "padding" : "0, 0, 0, 0",
             "snapOnInput" : true,
-            "startingDirectory" : "%USERPROFILE%",
+            "startingDirectory" : "D:\\Dev",
             "useAcrylic" : false
         },
         {
@@ -277,7 +277,7 @@
             "name" : "cmd",
             "padding" : "0, 0, 0, 0",
             "snapOnInput" : true,
-            "startingDirectory" : "%USERPROFILE%",
+            "startingDirectory" : "D:\\Dev",
             "useAcrylic" : true
         },
         {
@@ -314,7 +314,7 @@
             "name" : "Ubuntu",
             "padding" : "0, 0, 0, 0",
             "snapOnInput" : true,
-            "startingDirectory" : "%USERPROFILE%",
+            "startingDirectory" : "D:\\Dev",
             "useAcrylic" : true
         }
     ],
